@@ -26,7 +26,7 @@ const HomePage: React.FC = () => {
             alt={item.name}
             className="w-full h-32 object-contain mb-2"
           />
-          <h3 className="text-lg font-bold">{item.name}</h3>
+          <h3 className="text-lg font-bold text-black">{item.name}</h3>
           <p className="text-gray-600">{item.title}</p>
           <p className="text-sm text-gray-500">{item.mediaType}</p>
         </div>
